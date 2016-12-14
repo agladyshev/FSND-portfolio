@@ -1,0 +1,69 @@
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+
+  /* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+}
+
+body, h1, h2, h3, h4, h5 {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    font-weight: 200;
+}
+
+header {
+    padding-top: 1.5em;
+}
+
+nav {
+    background-image:
+        linear-gradient(
+            white, #CEECF5
+        );
+}
+
+footer {
+    padding-bottom: 1.5em;
+}
+
+a {
+    color: black;
+}
+
+hr {
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    border-bottom-width: 0.1em;
+    border-color: #7d97ad;
+}
+
+.social {
+    padding-bottom: 1em;
+}
+
+.banner {
+    width: 100vw;
+    height: 40vw;
+    background: url(images/mountains.png);
+    background-image: url(images/mountains_min.svg);
+    background-size: cover;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.link-hover:hover .icon-hover {
+    fill: #0645AD;
+}
+
+@media screen and (min-width: 1024px) {
+    .banner {
+        height: 30vw;
+        background: url(images/mountains_wide_2x.png);
+        background-image: url(images/mountains_min.svg);
+        background-size: cover;
+    }
+}
