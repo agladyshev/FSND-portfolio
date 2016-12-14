@@ -22,10 +22,8 @@
     -->
     <header class="row">
       <div class="small-2 column">
-        <picture>
-          <source type="image/svg" srcset="images/udacity_logo_min.svg">
-          <img src="assets/img/udacity_logo.png" class="udacity-logo" alt="Udacity logo">
-        </picture>
+        <div class="logo">
+        </div>
       </div>
       <div class="small-10 column text-right uppercase">
         <h1>Alexey Gladyshev</h1>
@@ -35,11 +33,10 @@
     <hr class="expanded row column">
     <nav class="row expanded">
       <div class="row align-center">
-        
         <ul class="menu small-12 column simple">
           <li><a href="#projects">Projects</a></li>
-          <li><a href="#">About me</a></li>
-          <li><a href="#">Contacts</a></li>
+          <li><a href="#about" data-toggle="about">About me</a></li>
+          <li><a href="#social">Contacts</a></li>
         </ul>
 
         <!--
@@ -55,7 +52,7 @@
       <div class="banner small-12 column">
       </div>
     </section>
-    <section id="bio" class="row " data-toggler=".hide">
+    <section id="about" class="row hide" data-toggler=".hide">
       <div class="small-12 column bio-header">
         <h2>About</h2>
       </div>
@@ -72,59 +69,131 @@
     <div id="projects" class="row column">
       <h2>Featured Work</h2>
     </div>
-    <section class="row projects">
+    <section class="row projects align-justify">
       <div class="small-12 medium-6 large-12 column project">
         <div class="row">
-          <picture class="project-pic large-6 column">
-            <img
-              src="http://placehold.it/640x480"
-              srcset="http://placehold.it/320x240 320w, http://placehold.it/480x360 480w, http://placehold.it/640x480 640w"
-              alt="Project image">
-          </picture>
+          <div class="project-pic large-6 column">
+            <picture>
+              <source
+                type="image/svg+xml" 
+                media="(max-width: 639px)"
+                
+                srcset="assets/img/sports_wide.svg">
+               <source
+                 type="image/svg+xml" 
+                 media="(max-width: 1023px)"
+                 
+                 srcset="assets/img/sports_wide.svg">
+              <source
+                type="image/svg+xml" 
+                media="(min-width: 1024px)"
+                
+                srcset="assets/img/sports_wide.svg">   
+              <img
+                src="opera-closeup-400.jpg" alt="The Oslo Opera House"
+                sizes="(min-width: 640px) 60vw, 100vw"
+                srcset="http://placehold.it/320x240 320w, http://placehold.it/480x360 480w, http://placehold.it/640x480 640w"
+                alt="Project image">
+            </picture>
+          </div>
           <div class="project-desc large-6 column">
-            <h3>My project</h3>
-            <p>Interactive map of coffeeshops in Moscow</p>
+            <h3>Swiss tournament</h3>
+            <p>Interactive software for holding a swiss-system competition</p>
           </div>
         </div>
       </div>
       <div class="small-12 medium-6 large-12 column project">
         <div class="row">
-          <picture class="project-pic large-6 large-push-6 column">
-            <img
-              src="http://placehold.it/640x480"
-              srcset="http://placehold.it/320x240 320w, http://placehold.it/480x360 480w, http://placehold.it/640x480 640w"
-              alt="Project image">
-          </picture>
+          <div class="project-pic large-6 large-push-6 column">
+            <picture>
+              <source
+                type="image/svg+xml" 
+                media="(max-width: 639px)"
+                
+                srcset="assets/img/sports_wide.svg">
+               <source
+                 type="image/svg+xml" 
+                 media="(max-width: 1023px)"
+                 
+                 srcset="assets/img/sports_wide.svg">
+              <source
+                type="image/svg+xml" 
+                media="(min-width: 1024px)"
+                
+                srcset="assets/img/sports_wide.svg">   
+              <img
+                src="opera-closeup-400.jpg" alt="The Oslo Opera House"
+                sizes="(min-width: 640px) 60vw, 100vw"
+                srcset="http://placehold.it/320x240 320w, http://placehold.it/480x360 480w, http://placehold.it/640x480 640w"
+                alt="Project image">
+            </picture>
+          </div>
           <div class="project-desc large-6 large-pull-6 column">
-            <h3>My project</h3>
-            <p>Interactive map of coffeeshops in Moscow</p>
+            <h3>My project 2</h3>
+            <p>Interactive software for holding a swiss-system competition</p>
           </div>
         </div>
       </div>
       <div class="small-12 medium-6 large-12 column project">
         <div class="row">
-          <picture class="project-pic large-6 column">
-            <img
-              src="http://placehold.it/640x480"
-              srcset="http://placehold.it/320x240 320w, http://placehold.it/480x360 480w, http://placehold.it/640x480 640w"
-              alt="Project image">
-          </picture>
+          <div class="project-pic large-6 column">
+            <picture>
+              <source
+                type="image/svg+xml" 
+                media="(max-width: 639px)"
+                
+                srcset="assets/img/sports_wide.svg">
+               <source
+                 type="image/svg+xml" 
+                 media="(max-width: 1023px)"
+                 
+                 srcset="assets/img/sports_wide.svg">
+              <source
+                type="image/svg+xml" 
+                media="(min-width: 1024px)"
+                
+                srcset="assets/img/sports_wide.svg">   
+              <img
+                src="opera-closeup-400.jpg" alt="The Oslo Opera House"
+                sizes="(min-width: 640px) 60vw, 100vw"
+                srcset="http://placehold.it/320x240 320w, http://placehold.it/480x360 480w, http://placehold.it/640x480 640w"
+                alt="Project image">
+            </picture>
+          </div>
           <div class="project-desc large-6 column">
-            <h3>My project</h3>
-            <p>Interactive map of coffeeshops in Moscow</p>
+            <h3>My project 2</h3>
+            <p>Interactive software for holding a swiss-system competition</p>
           </div>
         </div>
       </div>
       <div class="small-12 medium-6 large-12 column project">
         <div class="row">
-          <picture class="project-pic large-6 large-push-6 column">
-            <img
-              src="http://placehold.it/640x480"
-              srcset="http://placehold.it/320x240 320w, http://placehold.it/480x360 480w, http://placehold.it/640x480 640w"
-              alt="Project image">
-          </picture>
+          <div class="project-pic large-6 large-push-6 column">
+            <picture>
+              <source
+                type="image/svg+xml" 
+                media="(max-width: 639px)"
+                
+                srcset="assets/img/sports_wide.svg">
+               <source
+                 type="image/svg+xml" 
+                 media="(max-width: 1023px)"
+                 
+                 srcset="assets/img/sports_wide.svg">
+              <source
+                type="image/svg+xml" 
+                media="(min-width: 1024px)"
+                
+                srcset="assets/img/sports_wide.svg">   
+              <img
+                src="opera-closeup-400.jpg" alt="The Oslo Opera House"
+                sizes="(min-width: 640px) 60vw, 100vw"
+                srcset="http://placehold.it/320x240 320w, http://placehold.it/480x360 480w, http://placehold.it/640x480 640w"
+                alt="Project image">
+            </picture>
+          </div>
           <div class="project-desc large-6 large-pull-6 column">
-            <h3>My project</h3>
+            <h3>My project 4</h3>
             <p>Interactive map of coffeeshops in Moscow</p>
           </div>
         </div>
@@ -132,7 +201,7 @@
     </section>
     <footer class="row text-center">
       <hr class="row column">
-      <div class="social small-12 large-6 column">
+      <div id="social" class="social small-12 large-6 column" >
         <div class="row small-up-2 large-up-4">
           <a class="zocial-facebook column" href="//facebook.com/" title="View my Facebook page" id="viewFacebook"> Facebook</a>
           <a class="zocial-linkedin column" href="//linkedin.com/" title="View my LinkedIn page" id="viewGoogle+"> LinkedIn</a>
@@ -144,7 +213,6 @@
           </a>
         </div>
       </div>
-      
       <div class="small-12 large-6 column end">
           <span>View source for this page on</span>
           <a class="zocial-github" href="//github.com/udacity/responsive-images/tree/master/project/start" title="View source for this page on GitHub" id="viewSource"></a>

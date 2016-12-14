@@ -13,6 +13,10 @@ h1 {
     font-weight: 200;
 }
 
+h2 {
+    color: #7d97ad;
+}
+
 header {
     padding-top: 1.5em;
 }
@@ -37,6 +41,15 @@ hr {
     margin-bottom: 0.5em;
     border-bottom-width: 0.1em;
     border-color: #7d97ad;
+}
+
+.logo {
+    width: 10vw;
+    height: 10vw;
+    max-width: 100px;
+    max-height: 100px;
+    background: url(images/udacity_logo.png);
+    background-image: url(images/udacity_logo_min.svg);
 }
 
 .social {
@@ -66,4 +79,6 @@ hr {
         background-image: url(images/mountains_min.svg);
         background-size: cover;
     }
+
 }
+
