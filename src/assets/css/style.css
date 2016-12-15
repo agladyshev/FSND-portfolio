@@ -52,6 +52,10 @@ hr {
     background-image: url(images/udacity_logo_min.svg);
 }
 
+.bio {
+    padding-top: 2em;
+}
+
 .social {
     padding-bottom: 1em;
 }
