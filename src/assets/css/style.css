@@ -76,6 +76,24 @@ hr {
     fill: #0645AD;
 }
 
+@media screen and (max-width: 639px) {
+    .project-pic {
+    }
+}
+
+@media screen and (min-width: 640px) and (max-width: 1023px) {
+    .project-pic {
+        width: 40vw;
+        height: 30vw;
+    }
+    .project-desc {
+        text-align: left;
+    }
+    .projects {
+        padding-left: 5vw;
+    }
+}
+
 @media screen and (min-width: 1024px) {
     .banner {
         height: 30vw;
@@ -83,6 +101,8 @@ hr {
         background-image: url(images/mountains_min.svg);
         background-size: cover;
     }
-
+    .project {
+        padding-bottom: 5em;
+    }
 }
 
