@@ -61,7 +61,6 @@ hr {
 }
 
 .banner {
-    width: 100vw;
     height: 40vw;
     background: url(images/mountains.png);
     background-image: url(images/mountains_min.svg);
