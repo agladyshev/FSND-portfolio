@@ -5,20 +5,19 @@
   font-family: 'zocial', sans-serif;
 }
 
-body, h1, h2, h3, h4, h5 {
-    font-family: 'Raleway', sans-serif;
-}
 
 h1 {
     font-weight: 200;
+    line-height: 0.8;
 }
 
 h2 {
-    color: #7d97ad;
+    
 }
 
 header {
     padding-top: 1.5em;
+
 }
 
 nav {
@@ -32,24 +31,19 @@ footer {
     padding-bottom: 1.5em;
 }
 
-a {
-    color: black;
-}
-
 hr {
-    margin-top: 1em;
-    margin-bottom: 0.5em;
-    border-bottom-width: 0.1em;
-    border-color: #7d97ad;
+
+    border-bottom-width: 0.1rem;
 }
 
 .logo {
-    width: 10vw;
-    height: 10vw;
-    max-width: 100px;
-    max-height: 100px;
+    width: 8vw;
+    height: 8vw;
+    max-width: 75px;
+    max-height: 75px;
     background: url(images/udacity_logo.png);
     background-image: url(images/udacity_logo_min.svg);
+    background-position: top 50%
 }
 
 .bio {
@@ -73,7 +67,7 @@ hr {
 }
 
 .link-hover:hover .icon-hover {
-    fill: #0645AD;
+    fill: #02b3e4;
 }
 
 @media screen and (max-width: 639px) {
@@ -86,6 +80,9 @@ hr {
     .project-desc {
         padding-top: 0.5em;
     }
+    .full-desc {
+        display: none;
+    }
 }
 
 @media screen and (min-width: 640px) and (max-width: 1023px) {
@@ -93,7 +90,7 @@ hr {
 
     }
     .project-desc {
-
+        text-align: left;
     }
     .project {
         padding-left: 4vw;
@@ -102,9 +99,15 @@ hr {
     .projects {
         padding-top: 1em;
     }
+    .full-desc {
+        display: none;
+    }
 }
 
 @media screen and (min-width: 1024px) {
+    body {
+        font-size: 20px;
+    }
     .banner {
         height: 30vw;
         background: url(images/mountains_wide_2x.png);
@@ -112,10 +115,14 @@ hr {
         background-size: cover;
     }
     .project {
-        padding-bottom: 5em;
+        padding-bottom: 5rem;
     }
+    #projects {
+        padding-bottom: 1em;
+}
 }
 
 #projects {
     padding-top: 0.5em;
+    padding-bottom: 0.5em;
 }
