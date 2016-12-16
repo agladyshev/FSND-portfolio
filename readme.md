@@ -13,7 +13,7 @@ To work on this project, your computer needs:
 2. Then open the project folder in your command line, and install the needed dependencies:
 
 ```bash
-cd projectname
+cd FSND-portfolio
 npm install
 bower install
 ```
