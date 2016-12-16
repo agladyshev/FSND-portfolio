@@ -1,23 +1,17 @@
 @import url(http://weloveiconfonts.com/api/?family=zocial);
 
-  /* zocial */
+  /*implementin zocial font for social media icons*/
 [class*="zocial-"]:before {
   font-family: 'zocial', sans-serif;
 }
-
 
 h1 {
     font-weight: 200;
     line-height: 0.8;
 }
 
-h2 {
-    
-}
-
 header {
-    padding-top: 1.5em;
-
+    padding-top: 2rem;
 }
 
 nav {
@@ -28,12 +22,7 @@ nav {
 }
 
 footer {
-    padding-bottom: 1.5em;
-}
-
-hr {
-
-    border-bottom-width: 0.1rem;
+    padding-bottom: 2rem;
 }
 
 .logo {
@@ -43,16 +32,11 @@ hr {
     max-height: 75px;
     background: url(images/udacity_logo.png);
     background-image: url(images/udacity_logo_min.svg);
-    background-position: top 50%
 }
 
 .bio {
     padding-top: 2em;
     padding-bottom: 0.5em;
-}
-
-.social {
-    padding-bottom: 1em;
 }
 
 .banner {
@@ -68,6 +52,7 @@ hr {
 
 .link-hover:hover .icon-hover {
     fill: #02b3e4;
+    /*change the color of svg path in icon on mouse hover*/
 }
 
 @media screen and (max-width: 639px) {
@@ -86,18 +71,12 @@ hr {
 }
 
 @media screen and (min-width: 640px) and (max-width: 1023px) {
-    .project-pic {
-
-    }
     .project-desc {
         text-align: left;
     }
     .project {
         padding-left: 4vw;
         padding-right: 4vw;
-    }
-    .projects {
-        padding-top: 1em;
     }
     .full-desc {
         display: none;
@@ -108,6 +87,9 @@ hr {
     body {
         font-size: 20px;
     }
+    footer {
+        font-size: 16px;
+    }
     .banner {
         height: 30vw;
         background: url(images/mountains_wide_2x.png);
@@ -117,12 +99,7 @@ hr {
     .project {
         padding-bottom: 5rem;
     }
-    #projects {
-        padding-bottom: 1em;
-}
-}
-
-#projects {
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
+    .project:last-of-type {
+        padding-bottom: 2rem;
+    }        
 }

@@ -6,20 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My portfolio</title>
     <link href="https://fonts.googleapis.com/css?family=Raleway:200,400" rel="stylesheet">
-    <!--
-    <link rel="stylesheet" href="assets/css/foundation.css" />
-    -->
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
-    <!--
-    <script src="assets/js/vendor/jquery.min.js"></script>
-    <script src="assets/js/vendor/what-input.min.js"></script>
-    <script src="assets/js/foundation.min.js"></script>
-    <script>
-      $(document).foundation(); 
-    </script>
-    -->
     <header class="row">
       <div class="small-2 column">
         <div class="logo">
@@ -34,20 +23,12 @@
       <hr class="expanded row">
     </div>
     <nav class="row expanded">
-      <div class="row align-center">
+      <div class="row">
         <ul class="menu small-12 column simple">
           <li><a href="#projects">Projects</a></li>
           <li><a href="#about" data-toggle="about">About me</a></li>
           <li><a href="#social">Contacts</a></li>
         </ul>
-
-        <!--
-        <div id="menuBar" class="button-group" data-toggler=".expanded">
-          <a href="#projects" class="button hollow">Projects</a>
-          <a class="button hollow" data-toggle="bio">About me</a>
-          <button class="button hollow" data-toggle="menuBar">Contacts</button>
-        </div>
-      -->
       </div>
     </nav>
     <section class="expanded row collapse">
@@ -55,16 +36,16 @@
       </div>
     </section>
     <section id="about" class="row hide bio" data-toggler=".hide">
-      <div class="small-offset-1 small-9 medium-offset-1 medium-5 large-offset-2 large-4 columns bio-text">
+      <div class="small-offset-1 small-9 medium-offset-1 medium-5 large-offset-2 large-4 columns">
         <div>
           <h2 class="subheader">About</h2>
           <p>So you want to know more about me? It's simple: I am hungry and curious, ambitious and dedicated web-developer. I'm up for creative ideas and long hours. Got a project you always dreamed about making?<br>Time to start working on it.</p>
         </div>
       </div>
-      <div class="small-offset-7 small-5 medium-offset-0 medium-5 large-4 columns end bio-pic">
+      <div class="small-offset-7 small-5 medium-offset-0 medium-5 large-4 columns end">
         <img 
           src="assets/img/avatar.svg"
-          alt="Project image">
+          alt="My vector avatar">
       </div>
       <hr>
     </section>
@@ -82,7 +63,7 @@
               <img
                 src="assets/img/sports_480.png 480w"
                 srcset="assets/img/sports_360.png 360w, assets/img/sports_480.png 480w, assets/img/sports_960.png 960w"
-                alt="Collection of different sports icons">
+                alt="Large basket with groceries">
             </picture>
           </div>
           <div class="small-12 medium-12 large-6 column text-right project-desc">
@@ -105,7 +86,7 @@
               <img
                 src="assets/img/sports_480.png 480w"
                 srcset="assets/img/sports_360.png 360w, assets/img/sports_480.png 480w, assets/img/sports_960.png 960w"
-                alt="Nice bald man drinks coffee and smiles.">
+                alt="Nice bald man is drinking coffee and smiling at you.">
             </picture>
           </div>
           <div class="small-12 medium-12 large-6 large-pull-6 column project-desc">
@@ -128,14 +109,14 @@
               <img
                 src="assets/img/sports_480.png 480w"
                 srcset="assets/img/sports_360.png 360w, assets/img/sports_480.png 480w, assets/img/sports_960.png 960w"
-                alt="Collection of different sports icons">
+                alt="Two fencers fencing ferociously">
             </picture>
           </div>
-          <div class="large-6 column project-desc text-right">
+          <div class="large-6 column text-right project-desc">
             <h3>Swiss tournament</h3>
             <p class="full-desc">Interactive software for holding a swiss-system competition. Different sports, differrent leagues, matches, players and ton of other features.</p>
             <p>Sit back, relax and enjoy the program doing all the hard work.
-            <p>Swiss tournament on <a class="zocial-github" href="//github.com/agladyshev/IPND-BackEnd-Tournament" title="View source for this page on GitHub" id="viewSource"></a> 
+            <p>Swiss tournament on <a class="zocial-github" href="//github.com/agladyshev/IPND-BackEnd-Tournament" title="View source for this page on GitHub" id="viewSource"></a>
             </p>
           </div>
         </div>
@@ -159,13 +140,13 @@
               <img
                 src="assets/img/sports_480.png 480w"
                 srcset="assets/img/sports_360.png 360w, assets/img/sports_480.png 480w, assets/img/sports_960.png 960w"
-                alt="Two devils playing">
+                alt="Two devils playing with fire">
             </picture>
           </div>
           <div class="project-desc large-pull-6 large-6 column">
             <h3>Multi User Blog</h3>
             <p class="full-desc">Passion, community, identity. </p>
-            <p>Let's be honest know: who doesn't want to have a nice blog nowadays? Invite your friends to join the party.
+            <p>Let's be honest: who doesn't want to have a nice blog nowadays? Invite your friends to join the party.
             <p>
             <p>Such Great Bloge on <a class="zocial-github" href="//github.com/agladyshev/Multi-user-blog" title="View source for this page on GitHub" id="viewSource"></a>  
             </p>  
@@ -175,12 +156,13 @@
     </section>
     <footer class="row text-center">
       <hr class="row column">
-      <div id="social" class="social small-12 large-6 column" >
+      <div id="social" class="small-12 large-6 column" >
         <div class="row small-up-2 large-up-4">
           <a class="zocial-facebook column" href="//facebook.com/profile.php?id=100010168684021" title="View my Facebook page" id="viewFacebook"> Facebook</a>
           <a class="zocial-linkedin column" href="//linkedin.com/" title="View my LinkedIn page" id="viewGoogle+"> LinkedIn</a>
           <a class="zocial-github column" href="//github.com/agladyshev" title="View my GitHub page" id="viewGithub"> GitHub</a>
           <a class="column link-hover" href="https://profiles.udacity.com/u/alexeygladyshev" title="View my Udacity page" id="viewUdacity">
+            <!--SVG image is used inline to get an access to its internal properties, fill color here. Color changes when we hover the mouse over the icon. This way, svg fully imitates font icon behaviour.-->
             <svg id="svg1" viewBox="0 -8 35 35" width="1em" height="1.2em">
               <path class="icon-hover" fill="#000000" fill-rule="evenodd" d="M29 .1l-9 4.7v14.9c0 .6 0 1.3-.2 1.9-.1.6-.3 1.2-.5 1.7-.1.1-.1.3-.2.4-.3 0-2.5-.7-3.5-1.4-.4-.3-.8-.6-1.2-1-.4-.4-.7-.8-1-1.2-.3-.4-.6-.9-.8-1.4-.2-.5-.4-1-.5-1.6-.1-.5-.1-1.1-.1-1.6V1.2L10 0 0 5.9v13.7C0 25.9 5.1 31 11.3 31c2.1 0 4-.5 5.7-1.5l8.4-4.8c3.3-1.7 5.6-5.2 5.6-9.1V1.3L29 .1zM17.9 26.2c-.9.9-1.6 1.4-2.6 1.9-.6.2-1.3.5-1.9.7-.6.1-1.2.2-1.8.2-.6 0-1.6-.1-2.2-.2-.6-.1-1.2-.3-1.7-.5s-1.1-.5-1.6-.9c-1.3-.9-1.9-1.7-2.5-2.5-.3-.5-.6-1-.9-1.6-.2-.6-.4-1.1-.5-1.7-.2-.7-.2-1.4-.2-2V7.1l8-4.7v13.1c0 5 3.7 9.1 8.4 10.1-.2.2-.3.4-.5.6zm11-9c-.1.5-.3 1-.5 1.5s-.6 1.2-1 1.7c-.6.7-1.2 1.2-2.7 2.1-1.3.7-2.4.9-3.1 1.1.5-1.2.5-2.5.5-3.9L22 6l7-3.7v13.3c0 .5 0 1.1-.1 1.6z"/>
             </svg> Udacity
@@ -189,9 +171,8 @@
       </div>
       <div class="small-12 large-6 column end">
           <span>View source for this page on</span>
-          <a class="zocial-github" href="//github.com/udacity/responsive-images/tree/master/project/start" title="View source for this page on GitHub" id="viewSource"></a>
+          <a class="zocial-github" href="//github.com/agladyshev/IPND-BackEnd-Tournament" title="View source for this page on GitHub" id="viewSource"></a>
       </div>
     </footer>
-
   </body>
 </html>
