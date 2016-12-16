@@ -9,6 +9,7 @@ import rimraf   from 'rimraf';
 import sherpa   from 'style-sherpa';
 import yaml     from 'js-yaml';
 import fs       from 'fs';
+import svg2png  from 'gulp-svg2png';
 
 // Load all Gulp plugins into one variable
 const $ = plugins();
@@ -26,7 +27,7 @@ function loadConfig() {
 
 // Build the "dist" folder by running all of the below tasks
 gulp.task('build',
- gulp.series(clean, gulp.parallel(pages, sass, javascript, images, copy), styleGuide));
+ gulp.series(clean, gulp.parallel(pages, sass, javascript, images, convertSvg, copy), styleGuide));
 
 // Build the site, run the server, and watch for file changes
 gulp.task('default',
@@ -114,6 +115,16 @@ function images() {
       progressive: true
     })))
     .pipe(gulp.dest(PATHS.dist + '/assets/img'));
+}
+
+//Convert svg graphics to png images
+function convertSvg() {
+  return gulp.src('src/assets/img/**/*.svg')
+    .pipe(svg2png({
+      width: 600,
+      height: 400
+    }))
+    .pipe(gulp.dest(PATHS.dist + '/assets/img/png'))
 }
 
 // Start a server with BrowserSync to preview the site in

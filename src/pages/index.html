@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My portfolio</title>
+    <title>Gladyshev: portfolio</title>
     <link href="https://fonts.googleapis.com/css?family=Raleway:200,400" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
@@ -43,9 +43,15 @@
         </div>
       </div>
       <div class="small-offset-7 small-5 medium-offset-0 medium-5 large-4 columns end">
-        <img 
-          src="assets/img/avatar.svg"
-          alt="My vector avatar">
+        <picture>
+          <source 
+            type="image/svg+xml" 
+            srcset="assets/img/avatar.svg">
+          <img 
+            src="assets/img/png/avatar.png"
+            alt="My vector avatar">
+            <!--Decided not to create srcset, the png is rather small-->
+        </picture>
       </div>
       <hr>
     </section>
@@ -61,8 +67,7 @@
                 type="image/svg+xml" 
                 srcset="assets/img/basket.svg">
               <img
-                src="assets/img/sports_480.png 480w"
-                srcset="assets/img/sports_360.png 360w, assets/img/sports_480.png 480w, assets/img/sports_960.png 960w"
+                src="assets/img/png/basket.png"
                 alt="Large basket with groceries">
             </picture>
           </div>
@@ -82,10 +87,9 @@
             <picture class="project-pic">
               <source
                 type="image/svg+xml" 
-                srcset="assets/img/bald_coffee_min.svg">
+                srcset="assets/img/bald_coffee.svg">
               <img
-                src="assets/img/sports_480.png 480w"
-                srcset="assets/img/sports_360.png 360w, assets/img/sports_480.png 480w, assets/img/sports_960.png 960w"
+                src="assets/img/png/bald_coffee.png"
                 alt="Nice bald man is drinking coffee and smiling at you.">
             </picture>
           </div>
@@ -105,10 +109,10 @@
             <picture >
               <source
                 type="image/svg+xml" 
-                srcset="assets/img/parry_min.svg">
+                srcset="assets/img/parry.svg">
               <img
-                src="assets/img/sports_480.png 480w"
-                srcset="assets/img/sports_360.png 360w, assets/img/sports_480.png 480w, assets/img/sports_960.png 960w"
+                src="assets/img/png/parry.png"
+                
                 alt="Two fencers fencing ferociously">
             </picture>
           </div>
@@ -128,7 +132,7 @@
               <source
                 type="image/svg+xml"
                 media="(max-width: 623px)"
-                srcset="assets/img/two_devils_min.svg">
+                srcset="assets/img/two_devils.svg">
               <source
                 type="image/svg+xml"
                 media="(max-width:1023px)"
@@ -136,10 +140,10 @@
               <source
                 type="image/svg+xml"
                 media="(min-width:1024px)"
-                srcset="assets/img/two_devils_min.svg">    
+                srcset="assets/img/two_devils.svg">    
               <img
-                src="assets/img/sports_480.png 480w"
-                srcset="assets/img/sports_360.png 360w, assets/img/sports_480.png 480w, assets/img/sports_960.png 960w"
+                src="assets/img/png/two_devils.png"
+                
                 alt="Two devils playing with fire">
             </picture>
           </div>

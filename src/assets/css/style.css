@@ -32,6 +32,7 @@ footer {
     max-height: 75px;
     background: url(images/udacity_logo.png);
     background-image: url(images/udacity_logo_min.svg);
+    background-size: cover;
 }
 
 .bio {
