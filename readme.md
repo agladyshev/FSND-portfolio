@@ -1,6 +1,7 @@
 This is a study project made during Fullstack Web Developer Nanodegree program at Udacity.
 The goal of this project is to present my prowess in creating responsive web pages which would look great on any device.
 This is not yet a real portfolio (:
+
 The project is built on the base of Foundation framework. Main working files are "index.html" and "style.css". Foundation provides you with a _settings.scss file which declares default style of a page. Some changes (i.e. colors of the page) were made there.
 
 Instructions:
