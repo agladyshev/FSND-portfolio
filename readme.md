@@ -9,6 +9,7 @@ To work on this project, your computer needs:
 
 - [NodeJS](https://nodejs.org/en/) (0.12 or greater)
 - [Git](https://git-scm.com/)
+- [Bower](https://www.npmjs.com/package/bower)
 
 1. Clone the repository to your local machine
 2. Then open the project folder in your command line, and install the needed dependencies:
