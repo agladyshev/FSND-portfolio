@@ -1,3 +1,7 @@
+Important!
+This project was restructured and rewritten to work with google app engine.
+New repository is here https://github.com/agladyshev/portfolio-appengine.
+
 This is a study project made during Fullstack Web Developer Nanodegree program at Udacity.
 The goal of this project is to present my prowess in creating responsive web pages which would look great on any device.
 This is not yet a real portfolio (:
